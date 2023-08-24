@@ -1,0 +1,22 @@
+{
+  "name": "yahoofinancescraping",
+  "version": "1.0.0",
+  "description": "get top market summary",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "cross-env PWDEBUG=1 node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "taoufiq.k",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "playwright": "^1.37.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
